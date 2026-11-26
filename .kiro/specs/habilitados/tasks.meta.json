@@ -1,0 +1,175 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Escribir los tests de `POST /habilitados` antes de implementar (run en rojo)": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730592784
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730596856
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730688207
+      }
+    ],
+    "2. Crear el middleware `src/middleware/validarAprobados.js`": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730592833
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730691776
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730711364
+      }
+    ],
+    "3. Crear la ruta `src/routes/habilitados.js`": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730592917
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730713294
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730728276
+      }
+    ],
+    "4. Actualizar `src/app.js`": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730592957
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730729973
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730801128
+      }
+    ],
+    "5. Agregar el gate de cobertura": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593003
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730803087
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730912321
+      }
+    ],
+    "6. Subir la cobertura sobre 80 %": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593042
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730914123
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730967184
+      }
+    ],
+    "7. Agregar los gates de SCA, secretos y SAST en `.github/workflows/ci.yml`": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593087
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730969160
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731018135
+      }
+    ],
+    "8. Corregir el hallazgo de SCA": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593126
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731022556
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731063427
+      }
+    ],
+    "9. Corregir el hallazgo de secretos": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593170
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731065654
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731111806
+      }
+    ],
+    "10. Completar `TRAZABILIDAD.md`": [
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795730593206
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731114224
+      },
+      {
+        "executionId": "15ca10f4-688d-4318-8c0b-9e7bbd3f0ae5",
+        "chatSessionId": "sess_e952a51f-d185-4314-ab4e-93fbb59c8675",
+        "timestamp": 1795731172624
+      }
+    ]
+  }
+}
